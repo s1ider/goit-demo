@@ -125,6 +125,6 @@ public class IssueMethods {
 
         Integer issuesNumber = Integer.parseInt(r.asString().replaceAll("[\\D]", ""));
         System.out.print(issuesNumber);
-        assertThat(issuesNumber, greaterThanOrEqualTo(10));
+        assertThat(issuesNumber, greaterThanOrEqualTo(5));
     }
 }
